@@ -106,7 +106,7 @@ span {
 }
 
 .hero-section {
-    background-image: url(/images/bg\ \(2\).png);
+    background-image: url(./images/bg\ \(2\).png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
@@ -131,7 +131,7 @@ span {
         content: '';
         width: 100%;
         height: 751px;
-        background-image: url(/images/item\ \(1\).png);
+        background-image: url(./images/item\ \(1\).png);
         left: 0;
         background-position-x: center;
         background-size: cover;
@@ -175,7 +175,7 @@ span {
 
 .item-info {
     margin-bottom: 10px;
-    background-image: url(/images/drop.svg);
+    background-image: url(./images/drop.svg);
     padding: 2px 25px 9px 25px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -239,7 +239,7 @@ span {
     &::before {
         position: absolute;
         content: '';
-        background-image: url(/images/before.svg);
+        background-image: url(./images/before.svg);
         width: 417px;
         width: clamp(3.125rem, -5.216rem + 41.7vw, 26.063rem);
         height: 41px;
@@ -250,7 +250,7 @@ span {
     &::after {
         position: absolute;
         content: '';
-        background-image: url(/images/after.svg);
+        background-image: url(./images/after.svg);
         width: 417px;
         width: clamp(3.125rem, -5.216rem + 41.7vw, 26.063rem);
         height: 41px;
@@ -366,7 +366,7 @@ span {
 // ABOUT PAGE
 
 .all {
-    background-image: url(/images/abt.png);
+    background-image: url(./images/abt.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -680,7 +680,7 @@ span {
     font-size: clamp(2.25rem, 1.614rem + 3.18vw, 4rem);
     font-weight: 400;
     margin: 180px auto 100px;
-    background-image: url(/images/rm.svg);
+    background-image: url(./images/rm.svg);
     background-size: cover;
     background-repeat: no-repeat;
     padding: 14px 17px;
@@ -758,7 +758,7 @@ span {
     margin: 180px auto 100px;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url(/images/rn.svg);
+    background-image: url(./images/rn.svg);
     padding: 16px 30px 15px 28px;
     width: 380px;
     width: clamp(17.5rem, 15.227rem + 11.36vw, 23.75rem);
