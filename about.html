@@ -107,6 +107,39 @@
             background-attachment: fixed;
             animation: fadeInBackground 1s forwards;
         }
+
+        .footer {
+            background-image: radial-gradient(50% 100% at 50% 100%, rgb(38, 38, 38) 0%, rgb(20, 20, 20) 100%);
+            box-shadow: inset 0px 1px 2px 0px rgba(189, 189, 189, 0.83);
+            background-size: cover;
+            background-repeat: no-repeat;
+            position: sticky;
+            text-align: center;
+            font-family: "Nanum Gothic Coding", monospace;
+            position: relative;
+        }
+
+        .footer::before {
+            position: absolute;
+            content: '';
+            background-image: url(./images/before.svg);
+            width: 417px;
+            width: clamp(3.125rem, -5.216rem + 41.7vw, 26.063rem);
+            height: 41px;
+            left: 0;
+            bottom: 20px;
+        }
+
+        .footer::after {
+            position: absolute;
+            content: '';
+            background-image: url(./images/after.svg);
+            width: 417px;
+            width: clamp(3.125rem, -5.216rem + 41.7vw, 26.063rem);
+            height: 41px;
+            right: 0;
+            bottom: 20px;
+        }
     </style>
     <script src="main.js"></script>
 </body>
